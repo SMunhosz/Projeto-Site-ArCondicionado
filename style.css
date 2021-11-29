@@ -1,0 +1,305 @@
+.header{
+    width: 100%;
+    height: 60px;
+    background: blue;
+    padding: 10px;
+}
+
+.menu-topo{
+    text-align: right;
+}
+
+.menu-topo li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.menu-topo li a {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu-topo li a:hover{
+    transition: 0.7s all;
+    color: black;
+}
+
+.foco {
+    width: 100%;
+    height: 574px;
+    background: url("./img/banner.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.foco h1{
+    font-family: Consolas;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    text-align: center;
+    margin-top: 350px;
+    margin-bottom: 40px;
+    line-height: 60px;
+}
+
+.botao{
+    font-family: Consolas;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20 45px;
+    background: blue;
+    border-radius: 5px;
+    
+}
+
+.botao:hover{
+    background: rgb(76, 76, 241);
+    transition: 0.7s all;
+}
+
+.servicos{
+    width: 100%;
+    height: 150px;
+    background-color: #f7f7f7;
+}
+
+.servicos h2{
+    font-family: Consolas;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.servicos p{
+    font-family: Consolas;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.nossos-servicos{
+    height: 435px;
+}
+
+.nossos-servicos h2{
+    font-family: Consolas;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 45px;
+    text-align: center;
+}
+
+
+.serv-img{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.serv-img h3{
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.serv-img p {
+    font-family: Consolas;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.marcas{
+    height: 435px;
+    background: #f7f7f7;
+}
+
+.marcas h2{
+    font-family: Consolas;
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.marcas p{
+    font-family: Consolas;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 10px;
+}
+
+.logos{
+    margin-top: 70px;
+}
+
+.sobre{
+    height: 500px;
+}
+
+.sobre h2{
+    font-family: Consolas;
+    font-size: 30px;
+    font-weight: bold;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sobre p{
+    font-family: Consolas;
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 10px;
+}
+
+.sobre h3{
+    font-family: Consolas;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 20px;
+    margin-top: 70px;
+    
+}
+
+.sobre img{
+    margin-top: 50px;
+}
+
+.objetivo{
+    height: 600px;
+    background: #f7f7f7;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.objetivo h2{
+    font-family: Consolas;
+    font-size: 30px;
+    font-weight: bold;      
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.objetivo p{
+    font-family: Consolas;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 10px;
+}
+
+.objetivo h3{
+    font-family: Consolas;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 70px;
+    text-align: left;
+    line-height: 25px;
+    color: black;
+}
+
+.objetivo img{
+    margin-top: 55 px;
+}
+
+.botao-orcamento{
+    background: #0b3aea;
+    padding: 20px 20px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 70px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.localizacao{
+    height: 580px;
+}
+
+.localizacao h2{
+    font-family: Consolas;
+    font-size: 30px;
+    font-weight: bold;      
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.localizacao p{
+    font-family: Consolas;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    margin-top: 10px;
+}
+
+.mapagoogle{
+    margin-top: 30px;
+    align-items: center;
+}
+
+.footer{
+    height: 150px;
+    background: #0b3aea;
+}
+
+.footer h2{
+    font-family: Consolas;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: unset;
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+
+.footer p{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    text-transform: unset;
+    color:white;
+    margin-top: 20px;
+}
+
